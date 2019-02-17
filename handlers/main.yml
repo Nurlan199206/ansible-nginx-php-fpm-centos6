@@ -1,0 +1,9 @@
+---
+- name: nginx start
+  service: name=nginx state=started
+
+- name: php-fpm start
+  service: name=php-fpm state=started
+
+- name: mariadb start
+  service: name=mariadb state=started
